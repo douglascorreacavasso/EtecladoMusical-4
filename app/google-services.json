@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "6919921497",
+    "firebase_url": "https://etecladomusical-4.firebaseio.com",
+    "project_id": "etecladomusical-4",
+    "storage_bucket": "etecladomusical-4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6919921497:android:cb2c7777b1e7acab",
+        "android_client_info": {
+          "package_name": "com.example.etecladomusical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6919921497-r8csgrmmdm7kjhitgdamtstcmj6td5ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.etecladomusical",
+            "certificate_hash": "531ddab991e9ca8092e2ce7d3af37ea81532266c"
+          }
+        },
+        {
+          "client_id": "6919921497-eqel36mgf7sgrre6c2k8vpvniv57ga91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.etecladomusical",
+            "certificate_hash": "81230b16e09aeaac517c202fa1d53aa5a1e14ce1"
+          }
+        },
+        {
+          "client_id": "6919921497-9jm91gu45qgtrol4n7bpkh4rmfa33vqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.etecladomusical",
+            "certificate_hash": "5a5554c666840a538caf2c2936d3cb4e87cc8fbd"
+          }
+        },
+        {
+          "client_id": "6919921497-fvc6ceftgjae8fj2hb19bndeo0he5j4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqX3WUQG4GiN49wGCYHVPPynb_A0bniAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6919921497-fvc6ceftgjae8fj2hb19bndeo0he5j4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

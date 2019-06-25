@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".telas.MainActivity">
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="139dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="161dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="false"
+        android:onClick="onClickEntrar"
+        android:text="Entrar"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/botaoCad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senhaUsuario" />
+
+    <EditText
+        android:id="@+id/senhaUsuario"
+        android:layout_width="215dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="16dp"
+        android:background="#6B6767"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnEntrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/nomeUsuario"
+        android:layout_width="214dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="16dp"
+        android:background="#686060"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="246dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:srcCompat="@drawable/imagemprincipal" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="161dp"
+        android:text="Senha"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/senhaUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/nomeUsuario" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="112dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="10dp"
+        android:text="Usuario"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/nomeUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/botaoCad"
+        android:layout_width="191dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="116dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:onClick="abrirCadastroUsuario"
+        android:text="Cadastro"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEntrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EtecladoMusical</string>
+    <string name="Senha">Senha</string>
+    <string name="Usuario">Usuario</string>
+    <string name="cadastro">Cadastre-se</string>
+    <string name="entrar">Entrar</string>
+</resources>
